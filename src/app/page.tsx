@@ -388,7 +388,7 @@ export default function Page() {
             <motion.div variants={stagger} initial="hidden" animate="show" className="space-y-4">
               <motion.h1 variants={fadeUp} className="leading-tight">
                 <span className="block text-4xl md:text-5xl font-heading text-white">
-                  Hi 👋, I’m
+                  Hi👋, I’m
                 </span>
                 <span className="block text-7xl md:text-7xl font-heading text-[var(--highlight)] mt-2">
                   Yasmin Nur Izzati

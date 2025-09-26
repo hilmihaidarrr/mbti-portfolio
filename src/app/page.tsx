@@ -29,6 +29,16 @@ export default function Page() {
     ],
   };
 
+  type workExperience = {
+    role: string;
+    company: string;
+    location: string;
+    date: string;
+    points: string[];
+    heroImage?: string;
+    image?: string;
+  };
+
   const workExperiences = [
     {
       role: "Market Research Intern",
@@ -337,7 +347,8 @@ export default function Page() {
 
   const [activeOrg, setActiveOrg] = useState<number | null>(null);
   const [showModal, setShowModal] = useState(false);
-  const [selectedWork, setSelectedWork] = useState<any | null>(null);
+  const [selectedWork, setSelectedWork] = useState<workExperience | null>(null);
+
 
 
   // ====== ANIMATION VARIANTS ======

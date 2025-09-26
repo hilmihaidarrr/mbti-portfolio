@@ -350,7 +350,6 @@ export default function Page() {
   const [selectedWork, setSelectedWork] = useState<workExperience | null>(null);
 
 
-
   // ====== ANIMATION VARIANTS ======
   const fadeUp: Variants = {
     hidden: { opacity: 0, y: 24 },
@@ -625,24 +624,10 @@ export default function Page() {
                           <li key={idx}>{p}</li>
                         ))}
                       </ul>
-                    ) : selectedWork.description ? (
+                    ) : selectedWork.points ? (
                       <p className="text-sm md:text-base text-white/90 leading-relaxed">
-                        {selectedWork.description}
+                        {selectedWork.points}
                       </p>
-                    ) : null}
-
-                    {/* Optional skills badges if kamu tambahkan nanti */}
-                    {selectedWork.skills?.length ? (
-                      <div className="mt-4 flex flex-wrap gap-2">
-                        {selectedWork.skills.map((s: string, i: number) => (
-                          <span
-                            key={i}
-                            className="rounded-full bg-white/5 px-3 py-1 text-xs ring-1 ring-white/10"
-                          >
-                            {s}
-                          </span>
-                        ))}
-                      </div>
                     ) : null}
                   </div>
                 </div>

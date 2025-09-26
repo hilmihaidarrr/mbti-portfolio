@@ -258,7 +258,7 @@ export default function Page() {
       org: "King Mongkut’s University of Technology Thonburi (KMUTT)",
       period: "2024",
       location: "Bangkok, Thailand",
-      cover: "/highlights/kmutt.jpg"
+      cover: "/highlights/kmutt.JPG"
     },
     {
       type: "International Exposure",

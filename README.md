@@ -1,4 +1,4 @@
-# Yasmin Portfolio – ICT Business
+# Yasmin Portfolio - ICT Business
 
 A personal portfolio website built for an **ICT Business student** at Telkom University, designed to present academic background, projects, and achievements in a professional way.
 
